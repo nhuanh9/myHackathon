@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost:8080/inotes/user/note/start/4 -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    ​
+    <title>project 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: #ffdefc;
+            background: url("https://1.bp.blogspot.com/-STlDHXnTFDc/URzdrnt0GjI/AAAAAAAAA8E/hABIp1iYly8/s1600/Namkna-blogspot-com_2.gif");
+        }
+
+        a {
+            color: #ff0002;
+            text-decoration: none;
+        }
+
+        .left {
+            float: left;
+            border: #ff5200 thin solid;
+            border-radius: 5px;
+            margin-left: 100px;
+        }
+
+        .footOfContent {
+            padding-top: 20px;
+        }
+        .timeRun{
+            font-size: 100px;
+        }
+        .timeMid{
+            padding-left: 70%;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1><a href="http://localhost:8080/inotes/home">Home</a></h1>
+    <div class="head">
+        <a href="http://localhost:8080/inotes/user/note/start/4?lang=en" class="btn btn-primary btn-lg">English</a>
+        <a href="http://localhost:8080/inotes/user/note/start/4?lang=vi" class="btn btn-danger btn-lg">Vietnamese</a>
+    </div>
+</center>
+<hr>
+<div class="left col-md-3">
+    <p>
+        <a href="http://localhost:8080/inotes/user/note/list">Notes list</a>
+    </p>
+    <div class="">
+        <table class="table">
+            <tr>
+                <td>Title</td>
+                <td>project 2</td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>Công việc</td>
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td>Hello Man</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="timeMid">
+    <h3>Start Time</h3>
+    <span id="startTime">2019-08-10T16:10:20.333</span>
+    <h3>Estimated Time:</h3>
+    <span id="duration">60</span>
+    <h3>End Time</h3>
+    <span id="endTime">2019-08-10T17:10:20.333</span>
+</div>
+<center>
+    <div class="footOfContent">
+        <h3>Status: </h3>
+        <span>Running</span>
+        <a href="http://localhost:8080/inotes/user/note/start/4">Start</a>
+        <p class="timeRun"><span id="hour">__</span>:<span id="minute">__</span>:<span id="second">__</span></p>
+    </div>
+</center>
+</body>
+</html>

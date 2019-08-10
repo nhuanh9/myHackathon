@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .icon::before {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .login::before {
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+    }
+
+    .tps::before {
+        font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+    }
+
+    .twitter::before {
+        font-family: "Font Awesome 5 Brands"; content: "\f099";
+    }
+</style>
+
+<body>
+<ul style="margin: 0;">
+    <li><span class="icon login"></span> Login</li>
+    <li><span class="icon tps"></span> TPS Reports</li>
+    <li><span class="icon twitter"></span> Twitter</li>
+</ul>
+</body>
+</html>

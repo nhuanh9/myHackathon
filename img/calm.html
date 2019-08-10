@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <style>
+        .content {
+            background: url("https://1.bp.blogspot.com/-M90FVuTTMVc/URzeXJ16NMI/AAAAAAAABCg/l8Ke6cyZaWc/s1600/anh-tran-tri-blogger-blogspot_anh-dong-nen-blog_Namkna-blogspot-com_13.gif");
+            height: 700px;
+        }
+
+        audio:hover, audio:focus, audio:active {
+            -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+
+        audio {
+            float: left;
+            top: 300px;
+            left: 500px;
+            position: absolute;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+            -moz-box-shadow: 2px 2px 4px 0px #006773;
+            -webkit-box-shadow: 2px 2px 4px 0px #006773;
+            box-shadow: 2px 2px 4px 0px #006773;
+            -moz-border-radius: 7px 7px 7px 7px;
+            -webkit-border-radius: 7px 7px 7px 7px;
+            border-radius: 50px;
+        }
+
+        .left {
+            float: left;
+            background-color: rgb(0, 0, 0);
+            opacity: 0.3;
+            height: 700px;
+        }
+
+        .select {
+            position: absolute;
+            display: block;
+            left: 20px;
+            color: rgba(255, 254, 250, 1);
+            opacity: 2;
+            font-size: 25px;
+        }
+
+        i:hover {
+            color: #2fff00;
+            font-size: 110%;
+        }
+
+        i {
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+
+        i > a {
+            font-size: 15px;
+            font-weight: lighter;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="left col-md-3">
+    </div>
+    <div class="select">
+        <i class="fa fa-home"><a>&nbspHome</a></i>
+        <br>
+        <i class="fa fa-moon"><a>&nbspNight</a></i>
+        <br>
+        <i class="fa fa-music"><a>&nbspPop</a></i>
+        <br>
+        <i class="fa fa-user"><a>&nbspMan</a></i>
+        <br>
+        <i class="fa fa-bell"><a>&nbspBell</a></i>
+        <br>
+        <i class="fa fa-film"><a>&nbspFilm</a></i>
+    </div>
+    <div class="col-md-10">
+        <audio controls>
+            <source src="../SongGioTrongRMXRemix-TrongRMXKICMJackG5R-6028382.mp3" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+</body>
+</html>
